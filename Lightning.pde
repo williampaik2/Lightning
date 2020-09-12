@@ -45,8 +45,8 @@ void lightning(){
     stroke((int)(Math.random() * 250), (int)(Math.random() * 250), (int)(Math.random() * 250));
     strokeWeight(9);
     startX = endX;
-    endX = (startX + (int)(Math.random() * -70 + 35));
-    endY = startY + ((int)(Math.random() * 50));
+    endX = (startX + (int)(Math.random() * -60 + 30));
+    endY = startY + ((int)(Math.random() * 60));
     if (endX < 100){
       if (endY > 200){
         endX = 72;
